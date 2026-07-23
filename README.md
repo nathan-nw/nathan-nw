@@ -1,86 +1,81 @@
-<!-- ## Hello!👋 -->
-
 <!--
-**nathan-nw/nathan-nw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+**nathan-nw/nathan-nw** is a special repository — its README.md renders on your GitHub profile.
 -->
 
-# 👋 Hey, I'm Nathan!
+# 👋 Hey, I'm Nathan
 
-🎓 **Software Engineering @ Western University** (B.E.Sc. '27)  
-💡 Passionate about building technology that drives **impact**: from **AI in healthcare** to **fintech and accessibility**.  
-🌏 Born and raised in Canada with roots in Hong Kong
+**Software Engineering @ Western University (B.E.Sc. '27).** I build developer tooling and applied AI — design system infrastructure at Intuit, systems for healthcare and public safety, and LLM measurement pipelines for empirical finance research.
+
+📍 Canada, with roots in Hong Kong · 🌐 [nathanwan.ca](https://nathanwan.ca)
 
 ---
 
-### 🚀 About Me
+### 🚧 Currently
 
-- 💻 I love building products that blend **innovation, empathy, and usability**.
-- 🧠 Experienced in **AI**, **full-stack web development**, and **cloud systems** (AWS, Supabase, Azure).
-- 💼 worked @ Qualicom Innovations in HK and CA as SWE and AI Development Analyst
+- **[activism-matrix](https://github.com/nathan-nw/activism-matrix)** — research: does a new theory of shareholder activism hold up against real SEC filings? Operationalizing DesJardine's PSI model (*Academy of Management Review*, 2025) into a coding rubric, then classifying SC 13D campaigns with an LLM pipeline — calibrated against the paper's worked cases and validated by blind human coding
+- **[Aerotir](https://aerotir.com)** — real-time crowd-density detection from live drone feeds (RTMP/WebRTC ingest, Modal GPU inference, CSRNet)
+- **[Eat Leet Repeat](https://eatleetrepeat.com)** — a LeetCode activity tracker; currently rebuilding it multi-user with per-user RLS and adaptive polling
 
-_Outside of code:_
+---
 
-- 🏀 I love playing **basketball**, 🏸 **badminton**, and teaching 🎿 **skiing**.
-- 🐾 I love cats and have 3; Leyla, Leylo and Fluffy
-- 💬 Fluent in English and Cantonese and trying to learn Mandarin.
+### 💼 Work
+
+**Software Developer Intern — Intuit, Design System Team** · *May 2026 – present*
+Building a release-automation pipeline (n8n + Workato) end-to-end, and contributing to an MCP server that lets developers across QuickBooks, TurboTax, and Mailchimp build design-system-conformant frontends. Shipped component updates used by 1,000+ developers.
+
+**Full-Stack Software Engineer — Azoma** · *Feb 2026 – Apr 2026*
+Built a citation-analysis dashboard visualizing source attribution from AI chatbots. Designed the architecture for a file-upload → context-bundle → grounded-prompt pipeline on AWS. Delivered features for $1M+ ARR clients including Canadian Tire and M&M Food Market.
+
+**Freelance Software Engineer** · *Sept 2025 – Dec 2025*
+REST and webhook integrations for real-time booking and pricing at a $1M+ travel agency, plus 3 production sites built with React.
+
+**AI Software Developer Intern — Qualicom Innovations, QMS ChatBot** · *May 2025 – Aug 2025*
+Built an LLM analytics workflow (Bedrock + Redshift) translating natural language to SQL across 200+ retail locations, cutting data retrieval from 15 minutes to 10 seconds. Also built an enterprise analytics chatbot on Kafka event streams for a major Canadian bank.
+
+**Software Engineering Intern — Qualicom Innovations, Property Management System** · *Apr 2024 – Aug 2024*
+Designed 10+ PostgreSQL schemas and Django REST APIs for a platform managing 10,000+ records, plus an MQTT IoT framework visualizing live data from 1,000+ devices.
+
+*Most of this work lives in private repos — happy to talk through any of it.*
 
 ---
 
 ### 🧰 Tech Stack
 
-**Languages:** Python, TypeScript, JavaScript, SQL, C++, Java  
-**Frameworks:** React.js, Django REST, Node.js, Express, Flask  
-**Cloud & Tools:** AWS (Lambda, RDS, Bedrock, S3), Supabase, Azure, Docker, PostgreSQL  
-**AI/ML:** PyTorch, OpenAI API, Hugging Face, TensorFlow
+| Area | Stack |
+|---|---|
+| **Languages** | TypeScript, Python, Java, C, SQL |
+| **Frontend** | React, Next.js, React Native, Storybook, Tailwind |
+| **Backend & Cloud** | Node.js, Express, Django REST, PostgreSQL, AWS (Lambda, S3, RDS, Bedrock), Docker, Kafka |
+| **AI** | PyTorch, MCP, embeddings + reranking, Gemini, OpenAI, Hugging Face |
+| **Tooling** | Git, CI/CD (n8n, Workato), Vitest, React Testing Library, Supabase |
 
 ---
 
-### 🏆 Highlights
+### 🏆 Selected Work
 
-- 🏅 **Visa's Trust & Transparency Track @ Hack Harvard 2025:** Built _Visa Verify_
-  : a Chrome extension that analyzes online transactions for fraud risk.
-- 🩺 **Slalom Consulting's Ai Award @ TTE 2025:** _Medical Imaging Diagnostics_: Disease-detection system with 94% accuracy.
-- 💬 **Presenter @ IFEM 2025:** Shared our _QCare_ solution to medical professionals globally.
-- 🏅 **IFEM Emergency Department Experience @ McGill Hacks 2025:** Created _QCare_, an ER patient dashboard.|
-- 🚀 **Finalist @ Hack Western 2024:** Built _HackMatch_, a tinder-like matching app for hackers.
-- 🧬 **IBM Pure Science Award @ TTE 2024:** Developed an AI pneumonia detection model (90.6% accuracy).
-- 🥇 **1st Place @ Overhaul Hackathon:** Built an AAA-compliant note-taking web app for accessibility.
+- 🥇 **HackHarvard 2025 — Visa Trust & Transparency Track** · *VisaVerify*, a Chrome extension that scores online transactions for fraud risk
+- 🥇 **McHacks 2025 — IFEM Track** · *QCare*, an ER patient dashboard with an emotional-support chatbot. Presented to emergency physicians globally at IFEM 2025
+- 🏅 **Slalom AI Award, Toronto Tech Expo 2025** · *Medical Imaging Diagnostics* — led 8 developers as Western Cyber Society's Director of AI to build a CNN system detecting TB, pneumonia, and lung cancer at 94% accuracy. Also presented at CUCAI
+- 🥇 **1st, UI/UX — NexHacks** · [*Prismlines*](https://prismlines.com), an AI-powered prediction-market platform where research agents assemble themed fund baskets, with an interface built to make upside, downside, and assumptions legible before you commit
 
----
+<details>
+<summary>More</summary>
 
-### 🌱 Currently
+- 🌲 **Sequoia Track — HackBrown**
+- 🥇 **1st @ Overhaul Hackathon** — AAA-compliant accessible note-taking app
+- 🚀 **Finalist @ Hack Western 2024** — *HackMatch*, a matching app for hackathon teams
+- 🧬 **IBM Pure Science Award, TTE 2024** — pneumonia detection model (90.6% accuracy)
 
-- 🚧 Building **DiversiFy**, a portfolio tracker for multi-asset analytics (TWRR, MWRR, SRR).
-- 🧩 Exploring **Generative AI** + **Financial Data Engineering**.
-- 🧠 Preparing for **Hack Western**, **HackHarvard**, and **TreeHacks**.
+</details>
 
 ---
 
-### 📫 Let's Connect!
+### 🙋 Outside of code
 
-<p align="center">
-  <a href="mailto:nwan23@uwo.ca">📧 Email</a> |
-  <a href="www.linkedin.com/in/nathan-wan23">💼 LinkedIn</a> |
-  <a href="https://devpost.com/nw55699">🧠 Devpost</a> |
-  <a href="https://nathanwan.ca">🌐 Portfolio</a>
-</p>
+Basketball, badminton, and teaching skiing. Three cats — Leyla, Leylo, and Fluffy. English and Cantonese, working on Mandarin.
 
-<!--
-- 💼 [LinkedIn](www.linkedin.com/in/nathan-wan23)
-- 🧠 [Devpost](https://devpost.com/nw55699?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav)
-- 🌐 [Portfolio Website](https://nathanwan.ca) -->
+---
 
-<!-- --- -->
+### 📫 Reach me
 
-<!-- > “Build with purpose. Design with empathy. Iterate with curiosity.” -->
+[Email](mailto:nwan23@uwo.ca) · [LinkedIn](https://www.linkedin.com/in/nathan-wan23) · [Devpost](https://devpost.com/nw55699) · [Portfolio](https://nathanwan.ca)
