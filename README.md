@@ -79,3 +79,11 @@ Basketball, badminton, and teaching skiing. Three cats — Leyla, Leylo, and Flu
 ### 📫 Reach me
 
 [Email](mailto:nwan23@uwo.ca) · [LinkedIn](https://www.linkedin.com/in/nathan-wan23) · [Devpost](https://devpost.com/nw55699) · [Portfolio](https://nathanwan.ca)
+
+---
+
+### 🐟 GitHub activity
+
+<img src="koi/koi.gif" width="256" alt="A pixel-art koi generated from Nathan's public GitHub activity" />
+
+*Drawn from my public GitHub activity and updated daily.*
